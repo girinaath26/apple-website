@@ -1,0 +1,186 @@
+<html>
+<head>
+    <title>Apple</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">
+        <img src="images/apple.jpg" alt="Apple"></a>
+        <ul class="nav-links">
+	    <li><a href="index.html">Store</a></li>
+            <li><a href="iphone.html">iPhone</a></li>
+            <li><a href="mac.html">Mac</a></li>
+            <li><a href="ipad.html">iPad</a></li>
+            <li><a href="watch.html">Watch</a></li>
+            <li><a href="airpods.html">AirPods</a></li>
+	    <li><a href="vision.html">Vision</a></li>
+	    <li><a href="tag.html">AirTag</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li id="authLink"></li>
+        </ul>
+    </nav>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap">
+        <div class="marquee-track">
+            <span class="marquee-item">🖤 Black Friday is here</span>
+	    <span class="marquee-item">💰 Biggest deals of the year</span>
+	    <span class="marquee-item">🚚 Free delivery on all orders</span>
+    	    <span class="marquee-item">⏰ Limited time offers</span>
+    	    <span class="marquee-item">📱 iPhone 17 Pro — save ₹10,000</span>
+	    <span class="marquee-item">💻 MacBook Air — save ₹15,000</span>
+            <span class="marquee-item">🎧 AirPods 4 — save ₹3,000</span>
+        </div>
+    </div>
+
+    <!-- HERO BANNER -->
+    <section style="position:relative; width:100%; height:600px; overflow:hidden; display:flex; align-items:center; justify-content:center; background:linear-gradient(180deg, #1d1d1f 0%, #2c2c2e 100%);">
+    
+    <img src="images/banner.jpg" alt="Banner" style="position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover;">
+    
+    <div style="position:relative; z-index:1; text-align:center; color:#ffffff; padding:20px; background:linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5)); width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+        
+        <p style="font-size:14px; letter-spacing:0.1em; text-transform:uppercase; color:#86868b; margin-bottom:12px; font-weight:600;">Apple Store</p>
+        
+        <h1 style="font-size:clamp(32px,5vw,64px); font-weight:800; letter-spacing:-0.02em; margin-bottom:28px; max-width:700px; color:#1d1d1f;">The best of Apple.<br>All in one place.</h1>
+        
+        <div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center;">
+            <a href="#products" style="background:#0071e3; color:#ffffff; padding:12px 24px; border-radius:980px; font-size:15px; text-decoration:none; font-family:sans-serif;">Shop Now</a>
+            <a href="about.html" style="background:transparent; color:#ffffff; padding:12px 24px; border-radius:980px; font-size:15px; text-decoration:none; border:1px solid rgba(255,255,255,0.6); font-family:sans-serif;">Learn More</a>
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="products-section" id="products">
+        <h2 class="section-title">Featured Products</h2>
+        <p class="section-sub">The best of Apple, all in one place.</p>
+
+        <div class="products-grid">
+
+            <div class="product-card" onclick="window.location.href='iphone.html'">
+                <img src="images/iphone17.jpg" alt="iPhone 16">
+                <div class="product-info">
+                    <p class="product-tag">New</p>
+                    <h3>iPhone 17 Pro</h3>
+                    <p class="product-desc">Apple Intelligence. Camera Control. All-new A18 chip.</p>
+                    <p class="product-price">From ₹79,900</p>
+                    <a href="iphone.html" class="btn-link">Shop iPhone →</a>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="window.location.href='mac.html'">
+                <img src="images/mac.jpg" alt="MacBook Air M4">
+                <div class="product-info">
+                    <p class="product-tag">New</p>
+                    <h3>MacBook Pro</h3>
+                    <p class="product-desc">Strikingly thin. Incredibly capable. Up to 30 hours battery.</p>
+                    <p class="product-price">From ₹99,900</p>
+                    <a href="mac.html" class="btn-link">Shop Mac →</a>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="window.location.href='ipad.html'">
+                <img src="images/ipad.jpg" alt="iPad Air">
+                <div class="product-info">
+                    <p class="product-tag">New</p>
+                    <h3>iPad Pro</h3>
+                    <p class="product-desc">Powerful. Portable. Perfect for everything.</p>
+                    <p class="product-price">From ₹59,900</p>
+                    <a href="ipad.html" class="btn-link">Shop iPad →</a>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="window.location.href='watch.html'">
+                <img src="images/watch.jpg" alt="Apple Watch Series 11">
+                <div class="product-info">
+                    <p class="product-tag">New</p>
+                    <h3>Apple Watch Series 10</h3>
+                    <p class="product-desc">Thinnest Apple Watch ever. Biggest display yet.</p>
+                    <p class="product-price">From ₹46,900</p>
+                    <a href="watch.html" class="btn-link">Shop Watch →</a>
+                </div>
+            </div>
+
+            <div class="product-card" onclick="window.location.href='airpods.html'">
+                <img src="images/airpods.jpg" alt="AirPods 4">
+                <div class="product-info">
+                    <p class="product-tag">New</p>
+                    <h3>AirPods 4</h3>
+                    <p class="product-desc">Personalized Spatial Audio. All-new design. All-day comfort.</p>
+                    <p class="product-price">From ₹13,900</p>
+                    <a href="airpods.html" class="btn-link">Shop AirPods →</a>
+                </div>
+            </div>
+             
+            <div class="product-card" onclick="window.location.href='vision.html'">
+                <img src="images/vision.jpg" alt="Vision Pro">
+                <div class="product-info">
+                    <p class="product-tag">New</p>
+                    <h3>Vision Pro</h3>
+                    <p class="product-desc">The most advanced personal electronics device ever. Spatial computing at its finest with visionOS.</p>
+                    <p class="product-price">From ₹299,900</p>
+                    <a href="vision.html" class="btn-link">Shop Vision →</a>
+                </div>
+            </div>
+      
+            <div class="product-card" onclick="window.location.href='tag.html'">
+                <img src="images/tag.jpg" alt="AirTag">
+                <div class="product-info">
+                    <p class="product-tag">New</p>
+                    <h3>AirTag</h3>
+                    <p class="product-desc">Attach to your keys, wallet or bag. Find it in the Find My app. Precision Finding guides you right to it.</p>
+                    <p class="product-price">From ₹3,800</p>
+                    <a href="vision.html" class="btn-link">Shop AirTag →</a>
+                </div>
+            </div>
+      
+        </div>
+    </section>
+
+    <!-- DEALS SECTION -->
+    <section class="deals-section">
+        <h2 class="section-title">Black Friday Deals</h2>
+        <p class="section-sub">For a limited time only. Don't miss out.</p>
+
+        <div class="deals-grid">
+
+            <div class="deal-card deal-black">
+                <div class="deal-text">
+                    <h3>AirPods 4</h3>
+                    <p>Free engraving. Make it personal.</p>
+                    <a href="airpods.html" class="btn-primary">Shop Now</a>
+                </div>
+                <img src="images/airpods.jpg" alt="AirPods">
+            </div>
+
+            <div class="deal-card deal-dark">
+                <div class="deal-text">
+                    <h3>Apple Watch</h3>
+                    <p>Health. Fitness. Connection. All on her wrist.</p>
+                    <a href="watch.html" class="btn-primary">Shop Now</a>
+                </div>
+                <img src="images/watch.jpg" alt="Apple Watch">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>Copyright &copy; 2025 Apple Inc. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Sales and Refunds</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
