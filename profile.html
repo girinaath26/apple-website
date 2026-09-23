@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">
+        <img src="images/apple.jpg" alt="Apple"></a>
+        <ul class="nav-links">
+	    <li><a href="index.html">Store</a></li>
+            <li><a href="iphone.html">iPhone</a></li>
+            <li><a href="mac.html">Mac</a></li>
+            <li><a href="ipad.html">iPad</a></li>
+            <li><a href="watch.html">Watch</a></li>
+            <li><a href="airpods.html">AirPods</a></li>
+            <li><a href="vision.html">Vision</a></li>
+	    <li><a href="tag.html">AirTag</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li id="authLink"></li>
+        </ul>
+    </nav>
+
+    <div class="page-wrap">
+        <div class="card">
+
+            <div class="avatar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6e6e73">
+                    <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+                </svg>
+            </div>
+
+            <h1 class="profile-name" id="profileName"></h1>
+            <p class="profile-email" id="profileEmail"></p>
+
+            <div class="divider"></div>
+
+            <div class="info-grid">
+
+                <div class="info-row">
+                    <span class="info-label">First Name</span>
+                    <span class="info-value" id="firstName"></span>
+                </div>
+
+                <div class="info-row">
+                    <span class="info-label">Last Name</span>
+                    <span class="info-value" id="lastName"></span>
+                </div>
+
+                <div class="info-row">
+                    <span class="info-label">Email</span>
+                    <span class="info-value" id="email"></span>
+                </div>
+
+                <div class="info-row">
+                    <span class="info-label">Phone</span>
+                    <span class="info-value" id="phone"></span>
+                </div>
+
+                <div class="info-row">
+                    <span class="info-label">Date of Birth</span>
+                    <span class="info-value empty">Not provided</span>
+                </div>
+
+                <div class="info-row">
+                    <span class="info-label">Address</span>
+                    <span class="info-value empty">Not provided</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
